@@ -5,6 +5,17 @@ VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{9421B5DD-6F83-4AEB-890A-FA1276840F6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptFiles", "ScriptFiles", "{EF6689BA-D767-4415-81A1-F15525C5CACA}"
+	ProjectSection(SolutionItems) = preProject
+		conf.js = conf.js
+		karma.conf.js = karma.conf.js
+		package.json = package.json
+		referenceConf.js = referenceConf.js
+		test-main.js = test-main.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{D98C80DE-AA42-45BE-80ED-1E73EC4F73D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +26,10 @@ Global
 		{9421B5DD-6F83-4AEB-890A-FA1276840F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9421B5DD-6F83-4AEB-890A-FA1276840F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9421B5DD-6F83-4AEB-890A-FA1276840F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98C80DE-AA42-45BE-80ED-1E73EC4F73D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98C80DE-AA42-45BE-80ED-1E73EC4F73D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98C80DE-AA42-45BE-80ED-1E73EC4F73D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98C80DE-AA42-45BE-80ED-1E73EC4F73D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
