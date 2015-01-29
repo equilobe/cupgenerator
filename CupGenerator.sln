@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptFiles", "ScriptFiles", "{EF6689BA-D767-4415-81A1-F15525C5CACA}"
 	ProjectSection(SolutionItems) = preProject
 		conf.js = conf.js
+		cucumberConf.js = cucumberConf.js
+		environment.js = environment.js
 		karma.conf.js = karma.conf.js
 		package.json = package.json
 		referenceConf.js = referenceConf.js
